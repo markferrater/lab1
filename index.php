@@ -122,7 +122,7 @@ h2 {
 <div class="links">
     <p>Quick Links:</p>
     <a href="/assessment_beginner/pages/clients_add.php">Add Client</a>
-    <a href="/assessment_beginner/pages/bookings_create.php">Create Booking</a>
+    <a href="/assessment_beginner/pages/clients_edit.php">Create Booking</a>
 </div>
 
 </div>

@@ -10,13 +10,14 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
   <style>
   body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
+     background: #dfe3e4;
     margin: 0;
     padding: 20px;
   }
 
   h2 {
     text-align: center;
+    
   }
 
   .container {
@@ -47,18 +48,21 @@ $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
   table {
     width: 100%;
     border-collapse: collapse;
+    text-align: center;
+    
   }
 
   th {
-    background-color: #4CAF50;
-    color: white;
     padding: 10px;
-    text-align: left;
+    background: #2e2c2c;
+    color: white;
+    border: 1px solid gray;
   }
 
   td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    text-align: center;
   }
 
   tr:hover {

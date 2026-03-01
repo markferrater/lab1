@@ -2,10 +2,11 @@
 <style>
   .nav-bar {
     display: flex;
+    justify-content: center;
     gap: 12px;
     flex-wrap: wrap;
     padding: 10px 15px;
-    background-color: #f4f4f4;
+    background-color: #78787e;
     border-radius: 6px;
     margin-bottom: 15px;
     font-family: Arial, sans-serif;
@@ -18,9 +19,10 @@
     border-radius: 4px;
     transition: 0.2s;
     font-weight: 500;
+    color: white;
   }
 
-  /* Hover effect */
+
   .nav-bar a:hover {
     background-color: #e0e0e0;
   }

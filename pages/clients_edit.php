@@ -1,7 +1,13 @@
 <?php
 include "../db.php";
  
-$id = $_GET['id'];
+$id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+
+// Check if ID is valid
+if ($id <= 0) {
+    header("Location: bookings_create.php");
+    exit;
+}
  
 $get = mysqli_query($conn, "SELECT * FROM clients WHERE client_id = $id");
 $client = mysqli_fetch_assoc($get);
